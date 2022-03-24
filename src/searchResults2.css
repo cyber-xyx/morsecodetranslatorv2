@@ -1,0 +1,17 @@
+.searchAgain {
+    margin: 1rem auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+  }
+
+  .results {
+    margin: 1rem auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oxygen", sans-serif;
+    font-size: 36px;
+    display: block;
+  }

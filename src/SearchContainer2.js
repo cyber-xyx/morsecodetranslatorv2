@@ -9,7 +9,7 @@ const SearchContainer2 = () => {
     
     const fetchSearch = async () => {
 
-        const urlC = `http://api.funtranslations.com/translate/morse2english.json?text=${input}`;
+        const urlC = `https://api.funtranslations.com/translate/morse2english.json?text=${input}`;
         const resC = await fetch(urlC);
         const dataC = await resC.json();
 

@@ -12,7 +12,7 @@ const SearchContainer = () => {
         // const resA = await fetch(urlA);
         // const dataA = await resA.json();
 
-        const urlB = `http://api.funtranslations.com/translate/morse?text=${input}`;
+        const urlB = `https://api.funtranslations.com/translate/morse?text=${input}`;
         const resB = await fetch(urlB);
         const dataB = await resB.json();
 
